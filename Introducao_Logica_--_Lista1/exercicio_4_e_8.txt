@@ -1,0 +1,76 @@
+programa
+{
+	inclua biblioteca Matematica --> mat
+	funcao inicio()
+	{
+		
+
+
+		inteiro A
+		inteiro B
+		inteiro C
+		inteiro S
+		inteiro R 
+		inteiro D
+		inteiro soma1
+		inteiro soma2
+		
+		
+		escreva("\n Insira o primeiro número: ")
+		leia(A)
+		
+		escreva("\n Insira o segundo número: ")
+		leia(B)
+
+		escreva("\n Insira o terceiro número: ")
+		leia(C)
+
+		soma1=B+C
+		S=mat.potencia(soma1, 2)
+		soma2=A+B
+		R=mat.potencia(soma2, 2)
+		D=S+R
+		
+		escreva(D)
+		
+		
+	}
+
+	
+
+}
+
+	/*Exercício 4: Escreva um sistema que leia três números inteiros e positivos (A, B, C) e
+calcule a seguinte expressão: D=R+S/2 onde R=(A+B)2 E S=(B+C)2*/
+
+programa
+{
+	
+		funcao inicio()
+	{
+		inteiro custoCarro=0
+		inteiro custoFab=0
+		inteiro distrib=0
+		inteiro impost=0
+
+		
+		
+		escreva("Escreva aqui o custo de fábrica do carro: R$")
+		leia (custoFab)
+				
+		distrib=(custoFab*28)/100
+		impost=(custoFab*45)/100
+		custoCarro=custoFab+distrib+impost
+		
+		escreva("\nO carro custa: R$ ",custoCarro)
+
+	
+
+}
+
+}
+/*Exercício 8:O custo ao consumidor de um carro novo é a soma do custo de fábrica com a
+percentagem do distribuidor e dos impostos (aplicados ao custo de fábrica).
+Supondo que a percentagem do distribuidor seja de 28% e os impostos de 45%,
+escrever um sistema que leia o custo de fábrica de um carro e escreva o custo ao
+consumidor.*/
